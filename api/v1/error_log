@@ -1,0 +1,36 @@
+[31-May-2015 20:24:03 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/gleecusc/public_html/R/api/v1/api.php on line 117
+[31-May-2015 20:24:03 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/v1/api.php:117) in /home/gleecusc/public_html/R/api/v1/Rest.inc.php on line 115
+[31-May-2015 20:24:03 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/v1/api.php:117) in /home/gleecusc/public_html/R/api/v1/Rest.inc.php on line 116
+[31-May-2015 20:25:39 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/gleecusc/public_html/R/api/v1/api.php on line 118
+[31-May-2015 20:25:39 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/v1/api.php:118) in /home/gleecusc/public_html/R/api/v1/Rest.inc.php on line 115
+[31-May-2015 20:25:39 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/v1/api.php:118) in /home/gleecusc/public_html/R/api/v1/Rest.inc.php on line 116
+[31-May-2015 20:25:41 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/gleecusc/public_html/R/api/v1/api.php on line 118
+[31-May-2015 20:25:41 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/v1/api.php:118) in /home/gleecusc/public_html/R/api/v1/Rest.inc.php on line 115
+[31-May-2015 20:25:41 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/v1/api.php:118) in /home/gleecusc/public_html/R/api/v1/Rest.inc.php on line 116
+[31-May-2015 20:25:42 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/gleecusc/public_html/R/api/v1/api.php on line 118
+[31-May-2015 20:25:42 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/v1/api.php:118) in /home/gleecusc/public_html/R/api/v1/Rest.inc.php on line 115
+[31-May-2015 20:25:42 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/v1/api.php:118) in /home/gleecusc/public_html/R/api/v1/Rest.inc.php on line 116
+[31-May-2015 20:25:43 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/gleecusc/public_html/R/api/v1/api.php on line 118
+[31-May-2015 20:25:43 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/v1/api.php:118) in /home/gleecusc/public_html/R/api/v1/Rest.inc.php on line 115
+[31-May-2015 20:25:43 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/v1/api.php:118) in /home/gleecusc/public_html/R/api/v1/Rest.inc.php on line 116
+[02-Jun-2015 15:10:40 Etc/GMT] PHP Fatal error:  Cannot redeclare API::survey() in /home/gleecusc/public_html/R/api/v1/api.php on line 128
+[02-Jun-2015 15:11:22 Etc/GMT] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/gleecusc/public_html/R/api/v1/api.php on line 117
+[02-Jun-2015 15:11:22 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/v1/api.php:117) in /home/gleecusc/public_html/R/api/v1/Rest.inc.php on line 115
+[02-Jun-2015 15:11:22 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/v1/api.php:117) in /home/gleecusc/public_html/R/api/v1/Rest.inc.php on line 116
+[02-Jun-2015 21:18:27 Etc/GMT] PHP Fatal error:  Cannot use [] for reading in /home/gleecusc/public_html/R/api/v1/api.php on line 185
+[02-Jun-2015 22:14:52 Etc/GMT] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/gleecusc/public_html/R/api/v1/api.php on line 185
+[02-Jun-2015 22:14:52 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/gleecusc/public_html/R/api/v1/api.php on line 187
+[02-Jun-2015 22:14:52 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/v1/api.php:185) in /home/gleecusc/public_html/R/api/v1/Rest.inc.php on line 115
+[02-Jun-2015 22:14:52 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/v1/api.php:185) in /home/gleecusc/public_html/R/api/v1/Rest.inc.php on line 116
+[02-Jun-2015 22:16:27 Etc/GMT] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/gleecusc/public_html/R/api/v1/api.php on line 185
+[02-Jun-2015 22:16:27 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/gleecusc/public_html/R/api/v1/api.php on line 187
+[02-Jun-2015 22:16:27 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/v1/api.php:185) in /home/gleecusc/public_html/R/api/v1/Rest.inc.php on line 115
+[02-Jun-2015 22:16:27 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/v1/api.php:185) in /home/gleecusc/public_html/R/api/v1/Rest.inc.php on line 116
+[02-Jun-2015 22:27:02 Etc/GMT] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/gleecusc/public_html/R/api/v1/api.php on line 185
+[03-Jun-2015 05:27:25 Etc/GMT] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/gleecusc/public_html/R/api/v1/api.php on line 185
+[03-Jun-2015 05:36:42 Etc/GMT] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/gleecusc/public_html/R/api/v1/api.php on line 185
+[03-Jun-2015 05:36:58 Etc/GMT] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/gleecusc/public_html/R/api/v1/api.php on line 185
+[03-Jun-2015 05:39:50 Etc/GMT] PHP Parse error:  syntax error, unexpected 'responses' (T_STRING) in /home/gleecusc/public_html/R/api/v1/api.php on line 185
+[03-Jun-2015 05:52:47 Etc/GMT] PHP Parse error:  syntax error, unexpected 'for' (T_FOR) in /home/gleecusc/public_html/R/api/v1/api.php on line 188
+[03-Jun-2015 05:54:58 Etc/GMT] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/gleecusc/public_html/R/api/v1/api.php on line 186
+[03-Jun-2015 07:06:31 Etc/GMT] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/gleecusc/public_html/R/api/v1/api.php on line 205

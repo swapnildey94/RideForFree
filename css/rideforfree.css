@@ -1,0 +1,51 @@
+/*
+ * RIDE FOR FREE CUSTOM CSS
+ */
+
+ .row-home {
+  margin-top: 100px;
+}
+
+.jumbotron {
+  padding-top: 30px;
+  margin-top: 200px;
+}
+
+.container .jumbotron,
+.container-fluid .jumbotron {
+  border-radius: 100px;
+}
+
+.well-lg {
+  padding: 24px;
+  border-radius: 6px;
+  margin-top: 60px;
+}
+
+.btn {
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+padding-left: 10px;
+border-radius:15px;
+}
+
+.btn-xlarge {
+    padding: 15px 50px;
+    font-size: 22px;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+    }
+
+.btn-activity {
+    padding: 15px 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+    }

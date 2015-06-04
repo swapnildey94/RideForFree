@@ -1,0 +1,31 @@
+<div class="col-lg-9">
+	<div class="well well-lg" align="center" style="height:350px;">
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="embed-responsive embed-responsive-4by3">
+				  <youtube-video class="embed-responsive-item" video-id="videoURL"></youtube-video>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<h2>{{questions[no].question}}</h2>
+				<h4>
+					<label class="radio-inline">
+					  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="optionA"> {{questions[no].optionA}}
+					</label>
+					<label class="radio-inline">
+					  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="optionB"> {{questions[no].optionB}}
+					</label>
+					<label class="radio-inline">
+					  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="optionC"> {{questions[no].optionC}}
+					</label>
+					<label class="radio-inline">
+					  <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="optionD"> {{questions[no].optionD}}
+					</label>
+				</h4>
+					<div style="padding-top:20px;">
+							<a class="btn btn-success btn-lg" ng-href="#/activity" role="button">DONE</a>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>

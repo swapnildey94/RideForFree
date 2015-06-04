@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/favicon.ico">
+
+    <title>RideForFree</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Angular & Underscore CDN links -->
+    <script src="http://code.angularjs.org/angular-1.0.0rc11.min.js"></script>
+    <script src="lib/angular/angular-route.min.js"></script>
+    <script src="http://documentcloud.github.com/underscore/underscore-min.js"></script>
+    <!-- CUSTOM JS Files -->
+    <script src="js/app.js"></script>
+    <script src="js/controller.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+<body>
+  <div class="container">
+
+    <div class="row" style="margin-top:10%;"> 
+
+      <div class="col-lg-3">
+
+  		  <div class="well" align="center" style="height:350px;" ng-controller="FareCtrl">
+    			<h2 class="header dist">{{counter}} <i>KM</i></h2>
+    			<h2 class="header text-primary"><span>&#8377;</span> {{fare}} /-</h2>
+    			<h3 class="header"><b>Discount</b></h3>
+    			<p class="lead text-danger"><span>&#8377;</span> 0.00 /-</p>
+    			<h3 class="header"><b>Total Payable</b></h3>
+    			<p class="lead text-success"><span>&#8377;</span> {{fare}} /-</p>
+  		  </div>
+
+      </div>
+
+      <div class="col-lg-9">
+        <div class="well well-lg" align="center" style="height:350px;">
+          <div class="row">
+  				<a href="survey.html" type="button" class="btn btn-success btn-activity btn-text" style="height: 150px; width:49%; font-size: 24px;">Take a Survey</a>
+  				<a href="#" type="button" class="btn btn-info btn-activity" style="height: 150px; width:49%; font-size: 24px;">Quiz</a>
+  				<a href="#" type="button" class="btn btn-warning btn-activity" style="height: 150px; width:49%; font-size: 24px;">Watch a Video</a>
+  				<a href="#" type="button" class="btn btn-danger btn-activity" style="height: 150px; width:49%; font-size: 24px;">Locate</a>
+          </div>
+		    </div>
+	   </div>
+    </div>
+
+  <div class="row" style="margin-top:10px;">
+    <div class="col-lg-3">
+    		<div align="center" ng-controller="RideCtrl">
+          <a role="button" ng-click="stop()"><img src="assets/alert.png" alt="alert"></a>
+        </div>
+    </div>
+    <div class="col-lg-9">
+	     <div class="thumbnail" style="width:25%; float:left;">
+			   <img src="http://placehold.it/200x120">
+			 </div>
+       <div class="thumbnail" style="width:25%; float:left;">
+         <img src="http://placehold.it/200x120">
+       </div>
+       <div class="thumbnail" style="width:25%; float:left;">
+         <img src="http://placehold.it/200x120">
+       </div>
+       <div class="thumbnail" style="width:25%; float:left;">
+         <img src="http://placehold.it/200x120">
+       </div>
+		</div>
+  </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder.min.js"></script>
+  </body>
+</html>

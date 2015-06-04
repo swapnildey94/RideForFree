@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/favicon.ico">
+
+    <title>RideForFree</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Angular & Underscore CDN links -->
+    <script src="http://code.angularjs.org/angular-1.0.0rc11.min.js"></script>
+    <script src="lib/angular/angular-route.min.js"></script>
+    <script src="http://documentcloud.github.com/underscore/underscore-min.js"></script>
+    <!-- CUSTOM JS Files -->
+    <script type="text/javascript">
+      // define angular module/app
+      var formApp = angular.module('formApp', []);
+
+      // create angular controller and pass in $scope and $http
+      function formController($scope, $http) {
+          $scope.formData = {};
+      }
+    </script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+<body ng-app="formApp" ng-controller="formController">
+  <div class="container">
+
+    <div class="row" style="margin-top:10%;"> 
+
+      <div class="col-lg-3">
+
+        <div class="well" align="center" style="height:350px;" ng-controller="FareCtrl">
+        </div>
+
+      </div>
+
+      <div class="col-lg-9">
+          <div class="well well-lg" style="height:350px;">
+            <div class="row">
+              <div class="col-lg-9">
+                <form>
+                  <label><h2>How satisfied are you overall with the service you received from Indigo ?</h2></label>
+                  <input type="hidden" name="questionid" ng-model="formData.questionid" value="q1">
+                  <label class="radio-inline">
+                    <input type="radio" name="optionValue" id="inlineRadio1" ng-model="formData.optionValue" value="optionA"> I'm very Satisfied
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="optionValue" id="inlineRadio2" ng-model="formData.optionValue" value="optionB"> I'm very Satisfied
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="optionValue" id="inlineRadio3" ng-model="formData.optionValue" value="optionC"> I'm very Satisfied
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="optionValue" id="inlineRadio4" ng-model="formData.optionValue" value="optionD"> I'm very Satisfied
+                  </label>
+                  <button type="submit" class="btn btn-success btn-block">
+                    <span class="glyphicon glyphicon-flash"></span> Submit!
+                  </button>
+                </form>
+            </div>
+            <div class="col-lg-3">
+              <img ng-src="{{questions[questionno].imageLink}}">
+              
+              <div style="padding-top:20px;">
+                <a class="btn btn-success btn-lg" ng-href="#/survey-qs/{{nextQuestion}}" role="button">NEXT >></a>
+              </div>
+
+              <pre>
+                {{formData}}
+              </pre>
+              
+            </div>
+          </div>  
+        </div>
+     </div>
+    </div>
+
+  <div class="row" style="margin-top:10px;">
+    <div class="col-lg-3">
+        <div align="center" ng-controller="RideCtrl">
+        <img src="assets/alert.png" alt="alert">
+        </div>
+    </div>
+    <div class="col-lg-9">
+       <div class="thumbnail" style="width:25%; float:left;">
+         <img src="http://placehold.it/200x120">
+       </div>
+       <div class="thumbnail" style="width:25%; float:left;">
+         <img src="http://placehold.it/200x120">
+       </div>
+       <div class="thumbnail" style="width:25%; float:left;">
+         <img src="http://placehold.it/200x120">
+       </div>
+       <div class="thumbnail" style="width:25%; float:left;">
+         <img src="http://placehold.it/200x120">
+       </div>
+    </div>
+  </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/holder.min.js"></script>
+  </body>
+</html>

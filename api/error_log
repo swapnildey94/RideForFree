@@ -1,0 +1,149 @@
+[31-May-2015 13:32:56 Etc/GMT] PHP Fatal error:  Using $this when not in object context in /home/gleecusc/public_html/R/api/dbconn.php on line 7
+[31-May-2015 13:51:42 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/dbconn.php:9) in /home/gleecusc/public_html/R/api/userRequest.php on line 6
+[31-May-2015 13:51:42 Etc/GMT] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/gleecusc/public_html/R/api/userRequest.php on line 32
+[31-May-2015 13:51:42 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/dbconn.php:9) in /home/gleecusc/public_html/R/api/userRequest.php on line 39
+[31-May-2015 13:52:15 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/dbconn.php:9) in /home/gleecusc/public_html/R/api/userRequest.php on line 6
+[31-May-2015 13:52:15 Etc/GMT] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/gleecusc/public_html/R/api/userRequest.php on line 32
+[31-May-2015 13:52:15 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/dbconn.php:9) in /home/gleecusc/public_html/R/api/userRequest.php on line 39
+[31-May-2015 13:53:10 Etc/GMT] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/gleecusc/public_html/R/api/userRequest.php on line 32
+[31-May-2015 13:53:10 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/userRequest.php:32) in /home/gleecusc/public_html/R/api/userRequest.php on line 39
+[31-May-2015 13:53:23 Etc/GMT] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/gleecusc/public_html/R/api/userRequest.php on line 32
+[31-May-2015 13:53:23 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/userRequest.php:32) in /home/gleecusc/public_html/R/api/userRequest.php on line 39
+[31-May-2015 13:54:58 Etc/GMT] PHP Warning:  mysql_query() expects parameter 2 to be resource, string given in /home/gleecusc/public_html/R/api/userRequest.php on line 30
+[31-May-2015 13:54:58 Etc/GMT] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/gleecusc/public_html/R/api/userRequest.php on line 32
+[31-May-2015 13:54:58 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/userRequest.php:30) in /home/gleecusc/public_html/R/api/userRequest.php on line 39
+[31-May-2015 13:57:37 Etc/GMT] PHP Warning:  mysql_query() expects parameter 2 to be resource, string given in /home/gleecusc/public_html/R/api/userRequest.php on line 42
+[31-May-2015 13:57:37 Etc/GMT] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/gleecusc/public_html/R/api/userRequest.php on line 44
+[31-May-2015 13:57:37 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/userRequest.php:42) in /home/gleecusc/public_html/R/api/userRequest.php on line 51
+[31-May-2015 13:58:05 Etc/GMT] PHP Warning:  mysql_query() expects parameter 2 to be resource, string given in /home/gleecusc/public_html/R/api/userRequest.php on line 42
+[31-May-2015 13:58:05 Etc/GMT] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/gleecusc/public_html/R/api/userRequest.php on line 44
+[31-May-2015 13:58:05 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/userRequest.php:42) in /home/gleecusc/public_html/R/api/userRequest.php on line 51
+[31-May-2015 13:58:52 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/gleecusc/public_html/R/api/userRequest.php on line 42
+[31-May-2015 13:58:52 Etc/GMT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gleecusc/public_html/R/api/userRequest.php on line 44
+[31-May-2015 13:58:52 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gleecusc/public_html/R/api/userRequest.php:42) in /home/gleecusc/public_html/R/api/userRequest.php on line 51
+[31-May-2015 14:01:28 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/gleecusc/public_html/R/api/userRequest.php on line 42
+[31-May-2015 14:01:28 Etc/GMT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gleecusc/public_html/R/api/userRequest.php on line 44
+[31-May-2015 14:03:32 Etc/GMT] PHP Parse error:  syntax error, unexpected '$pass' (T_VARIABLE) in /home/gleecusc/public_html/R/api/userRequest.php on line 11
+[31-May-2015 14:04:04 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/gleecusc/public_html/R/api/userRequest.php on line 43
+[31-May-2015 14:04:04 Etc/GMT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gleecusc/public_html/R/api/userRequest.php on line 45
+[31-May-2015 14:04:46 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/gleecusc/public_html/R/api/userRequest.php on line 44
+[31-May-2015 14:04:46 Etc/GMT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gleecusc/public_html/R/api/userRequest.php on line 46
+[31-May-2015 14:05:54 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/gleecusc/public_html/R/api/userRequest.php on line 44
+[31-May-2015 14:05:54 Etc/GMT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gleecusc/public_html/R/api/userRequest.php on line 46
+[31-May-2015 14:10:52 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/gleecusc/public_html/R/api/userRequest.php on line 45
+[31-May-2015 14:12:38 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/gleecusc/public_html/R/api/userRequest.php on line 45
+[31-May-2015 14:13:05 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/gleecusc/public_html/R/api/userRequest.php on line 41
+[31-May-2015 14:16:27 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/gleecusc/public_html/R/api/userRequest.php on line 41
+[31-May-2015 14:16:35 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/gleecusc/public_html/R/api/userRequest.php on line 41
+[31-May-2015 14:17:49 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/gleecusc/public_html/R/api/userRequest.php on line 41
+[31-May-2015 14:17:50 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/gleecusc/public_html/R/api/userRequest.php on line 41
+[31-May-2015 14:17:59 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/gleecusc/public_html/R/api/userRequest.php on line 41
+[31-May-2015 14:21:16 Etc/GMT] PHP Warning:  mysql_select_db(): Access denied for user 'root'@'localhost' (using password: NO) in /home/gleecusc/public_html/R/api/userRequest.php on line 14
+[31-May-2015 14:21:16 Etc/GMT] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/gleecusc/public_html/R/api/userRequest.php on line 14
+[31-May-2015 14:21:16 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/gleecusc/public_html/R/api/userRequest.php on line 41
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:36:21 Etc/GMT] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:38:00 Etc/GMT] PHP Fatal error:  Only variables can be passed by reference in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:38:05 Etc/GMT] PHP Fatal error:  Only variables can be passed by reference in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 28
+[31-May-2015 15:38:53 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 30
+[31-May-2015 15:38:53 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 30
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:26 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:39:27 Etc/GMT] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 29
+[31-May-2015 15:58:33 Etc/GMT] PHP Parse error:  syntax error, unexpected '=' in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 21
+[31-May-2015 15:59:01 Etc/GMT] PHP Parse error:  syntax error, unexpected '=' in /home/gleecusc/public_html/R/api/getSurveyQuestions.php on line 21
